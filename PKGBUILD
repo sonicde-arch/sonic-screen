@@ -1,9 +1,9 @@
 # Maintainer: artist for Sonic-DE
 
 pkgname=sonic-screen
-pkgver=6.6.3.1
+pkgver=6.6.4
 _dirver=$(echo $pkgver | cut -d. -f1-3)
-pkgrel=3
+pkgrel=1
 pkgdesc='Screen management software for SonicDE Workspaces'
 arch=(x86_64)
 url='https://github.com/Sonic-DE/sonic-screen'
@@ -47,5 +47,4 @@ package() {
   DESTDIR="$pkgdir" cmake --install build
 }
 
-sha256sums=('eaa0beb39855942fbb1a3353ebfd0bc6725d05a0914ca02607c5f2b7977e6d08')
-
+sha256sums=('ae26e96505f868e0cd3900f17889da79d44b58bdc11828edb6da305816e04f40')
